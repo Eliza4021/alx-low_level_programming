@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	 unsigned char f[10] = "0123456789";
+	const int f[10] = "0123456789";
 	int i;
 
 	for (i = 0; i < 0; i++)
