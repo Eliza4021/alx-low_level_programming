@@ -1,19 +1,18 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - Prints numbers.
- *
- * Return:Always 0(success)
- */
+*main - Prints all single digits of base 10 followed by new line
+*
+*Return: Always 0(success)
+*/
 
 int main(void)
 {
-	const int f[10] = "0123456789";
-	int i;
+	int z;
 
-	for (i = 0; i < 0; i++)
+	for (z = '0'; z <= '9'; z++)
 	{
-		putchar(f[i]);
+		putchar(z);
 	}
 	putchar('\n');
 	return (0);
